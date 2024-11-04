@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: roboto, helvetica;
+}
+
+.isReveal{
+  opacity: 1;
+  clip-path: inset(100%,0%,0%,0%);
+}
+
+
